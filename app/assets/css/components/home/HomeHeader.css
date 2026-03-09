@@ -1,0 +1,15 @@
+.home-header-bg {
+  @apply [background:var(--primary-gradient)] py-2;
+}
+
+.home-header-container {
+  @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.home-header-grid {
+  @apply flex flex-col md:flex-row font-ethnocentric font-light text-white gap-4 md:gap-0 justify-between items-start md:items-center py-2;
+}
+
+.event-date {
+  @apply text-3xl md:text-5xl md:me-6 md:self-center;
+}

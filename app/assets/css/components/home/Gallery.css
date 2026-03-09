@@ -1,0 +1,11 @@
+.gallery-bg {
+  @apply bg-[var(--foreground-secondary)] py-16;
+}
+
+.gallery-title {
+  @apply md:text-2xl font-ethnocentric font-light text-center tracking-[2.5rem];
+}
+
+.gallery-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-6 mt-10;
+}

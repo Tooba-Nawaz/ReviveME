@@ -1,0 +1,23 @@
+.participants-wrapper {
+  @apply grid grid-cols-3 gap-0;
+}
+
+.title-prefix {
+  @apply bg-[var(--primary)] text-white font-[300] px-4 rounded-full;
+}
+
+.participant-title {
+  @apply font-ethnocentric font-extralight;
+}
+
+.participant-grid {
+  @apply grid grid-cols-3 gap-4;
+}
+
+.participant-image-wrapper {
+  @apply bg-[var(--foreground-secondary)] px-4 h-20 flex items-center justify-center;
+}
+
+.participant-image {
+  @apply max-h-full object-contain;
+}

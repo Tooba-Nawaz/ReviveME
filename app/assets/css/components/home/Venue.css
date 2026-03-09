@@ -1,0 +1,11 @@
+.venue-wrapper {
+  @apply absolute top-4 md:top-20 lg:left-1/2 lg:-translate-x-1/2 px-4;
+}
+
+.venue-content-wrapper {
+  @apply mx-auto w-full max-w-sm rounded-2xl bg-gradient-to-b from-[#F29C39]/[0.14] to-[#F52676]/[0.14] text-white p-6;
+}
+
+.event-venue {
+  @apply text-2xl md:text-4xl font-ethnocentric font-extralight;
+}

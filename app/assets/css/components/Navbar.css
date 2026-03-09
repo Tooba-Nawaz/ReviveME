@@ -1,0 +1,19 @@
+.navbar-container {
+  @apply fixed top-0 w-full bg-[#26062C] z-50;
+}
+
+.nav-lg-grid {
+  @apply flex items-center justify-between py-3;
+}
+
+.nav-items-lg-wrapper {
+  @apply hidden text-white text-sm lg:flex space-x-20;
+}
+
+.nav-lg-button {
+  @apply hidden lg:flex;
+}
+
+.nav-items-sm-wrapper {
+  @apply flex flex-col text-white space-y-2;
+}

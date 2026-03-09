@@ -1,0 +1,33 @@
+.expected-bg {
+  @apply relative  bg-[#FFF5EA] overflow-hidden;
+}
+
+.expected-bg .orb {
+  @apply absolute w-[400px] h-[400px] rounded-full blur-[120px];
+}
+
+.expected-bg .orb-left {
+  @apply -left-20 top-1/2 -translate-y-1/2;
+  background: rgba(245, 38, 118, 0.3);
+}
+
+.expected-bg .orb-right {
+  @apply -right-20 top-1/2 -translate-y-1/2;
+  background: rgba(133, 16, 154, 0.2);
+}
+
+.expected-bg .content-wrapper {
+  @apply relative z-10 text-center text-[var(--dark)];
+}
+
+.expected-title {
+  @apply text-3xl font-ethnocentric font-light;
+}
+
+.expected-wrapper {
+  @apply grid grid-cols-2 md:flex md:flex-wrap md:justify-center lg:grid lg:grid-cols-8 gap-10 mt-12;
+}
+
+.expected-number {
+  @apply text-[var(--primary)] font-ethnocentric text-2xl;
+}

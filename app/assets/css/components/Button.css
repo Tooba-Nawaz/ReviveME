@@ -1,0 +1,45 @@
+.button {
+  @apply font-normal cursor-pointer ease-in-out uppercase
+           select-none  h-min
+           disabled:pointer-events-none
+           disabled:opacity-50
+           flex justify-center items-center
+           gap-2 transition-colors;
+}
+
+.button-primary {
+  background: var(--primary-gradient);
+  color: var(--foreground-secondary);
+  box-shadow: var(--primary-gradient-box-shadow);
+  border: 1px solid var(--primary-gradient);
+}
+.button-transparent {
+  background: transparent;
+  color: var(--foreground-secondary);
+  border: 1px solid var(--foreground-secondary);
+}
+
+.button-secondary {
+  background: var(--secondary-gradient);
+  color: var(--foreground-secondary);
+}
+
+.button-small {
+  @apply px-4 py-2 text-sm min-h-[36px];
+}
+
+.button-regular {
+  @apply px-6 py-3 text-base;
+}
+
+.button-large {
+  @apply px-8 py-4 text-lg min-h-[56px];
+}
+
+.button-rounded {
+  @apply rounded-lg;
+}
+
+.button-pill {
+  @apply rounded-full;
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap");
+@import url("https://use.typekit.net/pjt0nvw.css");
+
+@import "./components/Navbar.css";
+@import "./components/Button.css";
+@import "./components/home/HomeHeader.css";
+@import "./components/home/HeroSection.css";
+@import "./components/home/HomeAbout.css";
+@import "./components/home/ExpectedNumbers.css";
+@import "./components/home/WhyAbuDhabi.css";
+@import "./components/home/PreviousParticipants.css";
+@import "./components/home/Attendees.css";
+@import "./components/home/WhatsOn.css";
+@import "./components/home/Gallery.css";
+@import "./components/home/Venue.css";
+@import "./components/Footer.css";
+
+:root {
+  --primary: rgb(245, 38, 118);
+  --seondary: rgb(133, 16, 154);
+  --dark: rgb(17, 24, 39);
+  --gray: rgb(148, 163, 184);
+  --dark-blue: rgb(12, 14, 22);
+  --orange: rgb(245, 158, 11);
+  --foreground-secondary: rgb(250, 250, 251);
+  --primary-gradient: linear-gradient(
+    75deg,
+    var(--seondary) 0%,
+    var(--primary) 100%
+  );
+  --secondary-gradient: linear-gradient(to right, #ffffff 0%, #f29c39 100%);
+
+  --font-ethnocentric: "Ethnocentric", sans-serif;
+}
+
+.text-primary-gradient {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-secondary-gradient {
+  background: var(--secondary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.font-ethnocentric {
+  font-family: var(--font-ethnocentric);
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+}

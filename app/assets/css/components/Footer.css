@@ -1,0 +1,53 @@
+.footer {
+  @apply relative  bg-[var(--dark-blue)] overflow-hidden;
+}
+
+.orb {
+  @apply absolute w-[600px] h-[100px] rounded-full blur-[120px];
+}
+
+.footer .orb-left {
+  @apply left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+  background: rgba(245, 38, 118, 0.28);
+}
+
+.footer .orb-right {
+  @apply -right-20 top-1/2 -translate-y-1/2;
+  background: rgba(133, 16, 154, 0.2);
+}
+
+.content-wrapper {
+  @apply relative z-10 px-6 py-10 md:py-20;
+}
+
+.newsletter-grid {
+  @apply grid md:grid-cols-2 mb-10;
+}
+
+.get-involved-container {
+  @apply max-w-sm rounded-3xl bg-[#fff]/[0.1] border-[1.5px] border-white/10 text-white p-6;
+}
+
+.get-involved-title {
+  @apply text-lg text-[var(--orange)] mb-6;
+}
+
+.icon-wrapper {
+  @apply w-12 h-12 flex items-center justify-center border-[1.5px] border-white/10 rounded-full me-4;
+}
+
+.footer-wrapper {
+  @apply rounded-3xl bg-[#fff]/[0.1] border-[1.5px] border-white/10 text-white p-6;
+}
+
+.footer-grid {
+  @apply grid md:grid-cols-2 lg:grid-cols-4 gap-10 z-10;
+}
+
+.footer-item-title {
+  @apply text-xl font-bold mb-3;
+  background: linear-gradient(to right, var(--seondary) 0%, var(--primary) 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

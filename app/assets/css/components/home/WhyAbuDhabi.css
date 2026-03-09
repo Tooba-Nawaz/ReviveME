@@ -1,0 +1,15 @@
+.why-abu-dhabi {
+  @apply relative h-full  bg-cover bg-center flex items-center justify-start;
+}
+
+.why-abu-dhabi-grid {
+  @apply grid md:grid-cols-2 lg:grid-cols-3 gap-10 text-white py-20;
+}
+
+.why-abu-dhabi-title {
+  @apply text-6xl font-ethnocentric font-light;
+}
+
+.why-abu-dhabi-wrapper {
+  @apply bg-[rgba(15,23,42,0.6)] border-2 border-white/5 rounded-xl p-6;
+}

@@ -1,0 +1,37 @@
+.attendees-bg {
+  @apply relative  bg-[#fdf7fd] overflow-hidden;
+}
+
+.orb {
+  @apply absolute w-[400px] h-[400px] rounded-full blur-[120px];
+}
+
+.attendees-bg .orb-left {
+  @apply -left-20 top-1/2 -translate-y-1/2;
+  background: rgba(255, 0, 122, 0.1);
+}
+
+.attendees-bg .orb-right {
+  @apply -right-20 top-1/2 -translate-y-1/2;
+  background: rgba(255, 122, 0, 0.12);
+}
+
+.content-wrapper {
+  @apply relative z-10 px-6 py-10 md:py-20;
+}
+
+.edition-number {
+  @apply bg-[var(--primary)] text-white px-4 rounded-full;
+}
+
+.attendees-title {
+  @apply text-5xl lg:text-7xl font-extrabold;
+}
+
+.revive-title {
+  @apply text-4xl lg:text-7xl font-ethnocentric font-extralight text-[var(--primary)];
+}
+
+.attendees-item-wrapper {
+  @apply w-fit rounded-full bg-white/80 p-3 md:p-4 flex items-center;
+}
