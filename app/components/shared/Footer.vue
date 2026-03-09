@@ -117,7 +117,7 @@ const quickLinks = [
               >
             </div>
 
-            <div class="mt-6">
+            <div class="w-fit mt-6">
               <UiButton
                 variant="primary"
                 size="regular"
