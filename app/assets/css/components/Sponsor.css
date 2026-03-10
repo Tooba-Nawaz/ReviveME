@@ -1,0 +1,189 @@
+.sponsorPage {
+  @apply bg-white;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.sponsorHero {
+  @apply relative w-full overflow-hidden;
+  height: 376px;
+}
+
+.sponsorHero__image {
+  @apply h-full w-full object-cover;
+  object-position: center 20%;
+}
+
+/* =========================
+   INTRO
+========================= */
+
+.sponsorIntro {
+  background: linear-gradient(90deg, #85109a 0%, #f52676 100%);
+  @apply py-10 md:py-14 lg:py-16;
+}
+
+.sponsorIntro__grid {
+  @apply grid grid-cols-1 items-center gap-8 md:gap-10 lg:grid-cols-[1fr_1.12fr] lg:gap-14;
+  min-height: 175px;
+}
+
+.sponsorIntro__left,
+.sponsorIntro__right {
+  @apply flex items-center;
+}
+
+.sponsorIntro__title {
+  @apply m-0 flex flex-col font-light leading-[0.9];
+  font-family: var(--font-ethnocentric);
+}
+
+.sponsorIntro__titleTop {
+  @apply text-[42px] md:text-[58px] lg:text-[74px];
+  background: linear-gradient(90deg, #fff7e8 0%, #f4ebdb 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.sponsorIntro__titleBottom {
+  @apply text-[46px] md:text-[64px] lg:text-[84px];
+  background: var(--secondary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.sponsorIntro__desc {
+  @apply m-0 max-w-[560px] text-[14px] font-normal leading-[1.45] text-white md:text-[15px] lg:text-[16px];
+}
+
+/* =========================
+   STRATEGIC BENEFITS
+========================= */
+
+.sponsorBenefits {
+  @apply bg-[#f4f4f4] py-14 md:py-16 lg:py-20;
+}
+
+.sponsorBenefits__head {
+  @apply mb-10 text-center md:mb-12 lg:mb-14;
+}
+
+.sponsorBenefits__title {
+  @apply m-0 flex flex-col items-center;
+}
+
+.sponsorBenefits__titleTop {
+  @apply text-[28px] font-bold uppercase leading-[1.1] tracking-[-0.02em] text-[#141b2d] md:text-[38px] lg:text-[50px];
+}
+
+.sponsorBenefits__titleBottom {
+  @apply mt-1 text-[22px] font-light uppercase leading-[1.2] tracking-[0.12em] md:text-[32px] lg:text-[42px];
+  font-family: var(--font-ethnocentric);
+  color: #f52676;
+}
+
+.sponsorBenefits__grid {
+  @apply grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-8;
+}
+
+.sponsorBenefitCard {
+  @apply rounded-[28px] border border-[#f2d6e4] bg-[#f7eff3] p-5 md:p-6 lg:min-h-[205px];
+}
+
+.sponsorBenefitCard__iconWrap {
+  @apply mb-5 flex h-[34px] w-[34px] items-center justify-center rounded-full bg-[#f8d7e6];
+}
+
+.sponsorBenefitCard__icon {
+  @apply h-[16px] w-[16px] object-contain;
+}
+
+.sponsorBenefitCard__title {
+  @apply m-0 mb-4 text-[14px] font-bold leading-[1.35] text-[#f52676] md:text-[15px];
+}
+
+.sponsorBenefitCard__desc {
+  @apply m-0 text-[13px] font-normal leading-[1.75] text-[#2d2d39] md:text-[14px];
+}
+
+.sponsorBenefits__actions {
+  @apply mt-10 flex flex-col items-center justify-center gap-4 md:mt-12 md:flex-row md:gap-6 lg:mt-14;
+}
+
+.sponsorBenefits__actions .button {
+  @apply min-w-[290px] justify-center text-center md:min-w-[300px];
+}
+
+.sponsorBenefits__actions .button-primary {
+  @apply shadow-sm;
+}
+
+.sponsorBenefits__actions .button-border-gradient {
+  @apply bg-transparent;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1024px) {
+  .sponsorHero {
+    height: 300px;
+  }
+
+  .sponsorIntro__desc {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sponsorBenefits__titleTop {
+    @apply text-[24px];
+  }
+
+  .sponsorBenefits__titleBottom {
+    @apply text-[20px] tracking-[0.08em];
+  }
+
+  .sponsorBenefitCard {
+    @apply min-h-0 rounded-[24px];
+  }
+
+  .sponsorBenefitCard__desc {
+    @apply leading-[1.65];
+  }
+}
+
+@media (max-width: 640px) {
+  .sponsorHero {
+    height: 220px;
+  }
+
+  .sponsorIntro {
+    @apply py-8;
+  }
+
+  .sponsorIntro__grid {
+    @apply gap-6;
+  }
+
+  .sponsorIntro__titleTop {
+    @apply text-[32px];
+  }
+
+  .sponsorIntro__titleBottom {
+    @apply text-[36px];
+  }
+
+  .sponsorIntro__desc {
+    @apply text-[13px] leading-[1.5];
+  }
+
+  .sponsorBenefits__actions .button {
+    @apply min-w-full;
+  }
+}
