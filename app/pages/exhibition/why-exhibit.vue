@@ -1,17 +1,7 @@
 <script setup>
 import '@/assets/css/components/Exhibition.css'
-import AppContainer from "~/components/ui/AppContainer.vue"
 
-const {
-  public: { blobBaseUrl },
-} = useRuntimeConfig()
-
-
-useHead({
-  title: "Exhibition | Revive ME"
-});
-
-const getIconSrc = (name) => `${blobBaseUrl}/images/why-exhibit/icons/${name}.png`
+const getIconSrc = (name) => `/why-exhibit/icons/${name}.png`
 
 const cards = [
   {
@@ -97,8 +87,7 @@ const exhibitors = [
 <template>
   <section class="exHero">
     <NuxtImg
-      
-      :src="`${blobBaseUrl}/images/why-exhibit/exhibition-hero.webp`"
+      src="/why-exhibit/exhibition-hero.webp"
       alt="Exhibition"
       class="exHero-bg"
       width="1920"

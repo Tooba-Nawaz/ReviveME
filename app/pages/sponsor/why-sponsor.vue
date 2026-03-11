@@ -3,61 +3,62 @@ import "@/assets/css/components/Sponsor.css";
 import AppContainer from "~/components/ui/AppContainer.vue";
 import UiButton from "~/components/ui/Button.vue";
 
-const {
-  public: { blobBaseUrl },
-} = useRuntimeConfig()
-
-
 useHead({
-  title: "Sponsor | Revive ME"
+  title: "Sponsor | Revive ME",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Sponsor Revive ME and position your organization at the center of Abu Dhabi’s growing longevity and health technology ecosystem.",
+    },
+  ],
 });
 
-const benefitIcon = `${blobBaseUrl}/images/why-sponsor/benefit.png`
 const sponsorBenefits = [
   {
     title: "Direct Access to Decision-Makers",
     desc: "Position your solutions before hospital CEOs, government officials, longevity investors, biotech executives, and wellness leaders with procurement authority.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
   {
     title: "Premium Brand Visibility",
     desc: "Gain prominent placement across event website, conference materials, exhibition signage, marketing communications, and all digital channels for maximum brand exposure.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
   {
     title: "Thought Leadership Opportunities",
     desc: "Secure keynote opportunities, panel participation, clinical roundtables, and innovation workshops to establish your brand authority in front of key industry stakeholders.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
   {
     title: "Exclusive Networking Platforms",
     desc: "Receive exclusive invitations to gala receptions, C-suite dinners, and closed-door strategy sessions with policymakers and global longevity pioneers for high-level relationship building.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
   {
     title: "Accelerated Lead Generation",
     desc: "Leverage enhanced exhibition presence, branded networking zones, and premium positioning to capture qualified leads and advance partnership conversations with healthcare innovators and investors.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
   {
     title: "Regional Vision Alignment",
     desc: "Demonstrate commitment to Abu Dhabi’s ambition to lead in longevity, regenerative medicine, and health tech innovation through strategic sponsorship alignment.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
   {
     title: "Market Leadership Positioning",
     desc: "Distinguish your organization through premium visibility, establishing category leadership and top-of-mind awareness among stakeholders evaluating longevity solutions.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
   {
     title: "Digital Content Amplification",
     desc: "Benefit from extensive pre-event marketing, live summit coverage, post-event content distribution, and sustained digital presence across event channels and industry partnerships.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
   {
     title: "Showcase Innovation Excellence",
     desc: "Align your brand with breakthrough regenerative therapies, world-renowned speakers, and pioneering health research, reinforcing your credibility as a leader in advancing human healthspan.",
-    icon: benefitIcon,
+    icon: "/why-sponsor/benefit.png",
   },
 ];
 </script>
@@ -66,7 +67,7 @@ const sponsorBenefits = [
   <main class="sponsorPage">
     <section class="sponsorHero">
       <NuxtImg
-        :src="`${blobBaseUrl}/images/why-sponsor/sponsor-hero.webp`"
+        src="/why-sponsor/sponsor-hero.webp"
         alt="Audience at Revive ME"
         class="sponsorHero__image"
       />
