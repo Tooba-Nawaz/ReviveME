@@ -46,7 +46,11 @@
 
 .footer-item-title {
   @apply text-xl font-bold mb-3;
-  background: linear-gradient(to right, var(--seondary) 0%, var(--primary) 70%);
+  background: linear-gradient(
+    to right,
+    var(--secondary) 0%,
+    var(--primary) 70%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

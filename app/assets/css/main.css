@@ -14,10 +14,13 @@
 @import "./components/home/Gallery.css";
 @import "./components/home/Venue.css";
 @import "./components/Footer.css";
+@import "./components/About.css";
+@import "./components/Exhibition.css";
+@import "./components/Sponsor.css";
 
 :root {
   --primary: rgb(245, 38, 118);
-  --seondary: rgb(133, 16, 154);
+  --secondary: rgb(133, 16, 154);
   --dark: rgb(17, 24, 39);
   --gray: rgb(148, 163, 184);
   --dark-blue: rgb(12, 14, 22);
@@ -25,7 +28,7 @@
   --foreground-secondary: rgb(250, 250, 251);
   --primary-gradient: linear-gradient(
     75deg,
-    var(--seondary) 0%,
+    var(--secondary) 0%,
     var(--primary) 100%
   );
   --secondary-gradient: linear-gradient(to right, #ffffff 0%, #f29c39 100%);

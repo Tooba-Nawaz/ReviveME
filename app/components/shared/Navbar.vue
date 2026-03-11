@@ -26,7 +26,8 @@ const toggleMenu = () => {
 
         <div class="nav-items-lg-wrapper">
           <NuxtLink to="/about"> About </NuxtLink>
-          <NuxtLink to="/"> Exhibition </NuxtLink>
+          <NuxtLink to="/exhibition/why-exhibit"> Exhibition </NuxtLink>
+          <NuxtLink to="/sponsor/why-sponsor"> Sponsor </NuxtLink>
           <NuxtLink to="/"> Conference </NuxtLink>
           <NuxtLink to="/"> Partners </NuxtLink>
           <NuxtLink to="/"> Info Hub </NuxtLink>

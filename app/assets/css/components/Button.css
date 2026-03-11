@@ -24,6 +24,10 @@
   color: var(--foreground-secondary);
 }
 
+.button-border-gradient {
+  border: 1px solid var(--secondary);
+}
+
 .button-small {
   @apply px-4 py-2 text-sm min-h-[36px];
 }
