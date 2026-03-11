@@ -15,6 +15,8 @@
 @import "./components/home/Venue.css";
 @import "./components/Footer.css";
 @import "./components/About.css";
+@import "./components/Exhibition.css";
+@import "./components/Sponsor.css";
 
 :root {
   --primary: rgb(245, 38, 118);

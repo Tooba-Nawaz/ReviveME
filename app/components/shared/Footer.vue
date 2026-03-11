@@ -43,7 +43,7 @@ const socialLinks = [
 const quickLinks = [
   { label: "About", path: "/about" },
   { label: "Why Exhibit", path: "/exhibition/why-exhibit" },
-  { label: "Why Sponsor", path: "/sponsors/why-sponsor" },
+  { label: "Why Sponsor", path: "/sponsor/why-sponsor" },
   { label: "Why Attend", path: "/conference/why-attend" },
   { label: "Startup Launchpad", path: "/startup-launchpad" },
   { label: "VIP Experience", path: "/longevity-connect" },
