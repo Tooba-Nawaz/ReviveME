@@ -122,7 +122,7 @@ const quickLinks = [
                 variant="primary"
                 size="regular"
                 shape="pill"
-                href="/register"
+                to="/register"
                 >Request Call back</UiButton
               >
             </div>

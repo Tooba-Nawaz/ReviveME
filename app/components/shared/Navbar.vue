@@ -28,16 +28,12 @@ const toggleMenu = () => {
           <NuxtLink to="/about"> About </NuxtLink>
           <NuxtLink to="/exhibition/why-exhibit"> Exhibition </NuxtLink>
           <NuxtLink to="/sponsor/why-sponsor"> Sponsor </NuxtLink>
-          <NuxtLink to="/"> Conference </NuxtLink>
+          <NuxtLink to="/conference/why-attend"> Conference </NuxtLink>
           <NuxtLink to="/"> Partners </NuxtLink>
           <NuxtLink to="/"> Info Hub </NuxtLink>
         </div>
         <div class="nav-lg-button">
-          <UiButton
-            variant="primary"
-            size="regular"
-            shape="pill"
-            href="/register"
+          <UiButton variant="primary" size="regular" shape="pill" to="/register"
             >ENQUIRE NOW</UiButton
           >
         </div>
@@ -85,11 +81,7 @@ const toggleMenu = () => {
           <NuxtLink @click="isOpen = false" to="/"> Info Hub </NuxtLink>
         </div>
         <div class="w-fit py-4">
-          <UiButton
-            variant="primary"
-            size="regular"
-            shape="pill"
-            href="/register"
+          <UiButton variant="primary" size="regular" shape="pill" to="/register"
             >ENQUIRE NOW</UiButton
           >
         </div>

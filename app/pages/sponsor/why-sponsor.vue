@@ -5,14 +5,13 @@ import UiButton from "~/components/ui/Button.vue";
 
 const {
   public: { blobBaseUrl },
-} = useRuntimeConfig()
-
+} = useRuntimeConfig();
 
 useHead({
-  title: "Sponsor | Revive ME"
+  title: "Sponsor | Revive ME",
 });
 
-const benefitIcon = `${blobBaseUrl}/images/why-sponsor/benefit.png`
+const benefitIcon = `${blobBaseUrl}/images/why-sponsor/benefit.png`;
 const sponsorBenefits = [
   {
     title: "Direct Access to Decision-Makers",
@@ -130,7 +129,7 @@ const sponsorBenefits = [
             variant="primary"
             size="regular"
             shape="pill"
-            href="/register"
+            to="/register"
           >
             REQUEST SPONSORSHIP PROSPECTUS
           </UiButton>
@@ -139,7 +138,7 @@ const sponsorBenefits = [
             variant="border-gradient"
             size="regular"
             shape="pill"
-            href="/register"
+            to="/register"
           >
             SCHEDULE CONSULTATION
           </UiButton>
