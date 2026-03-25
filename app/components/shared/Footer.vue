@@ -46,7 +46,7 @@ const quickLinks = [
   { label: "Why Sponsor", path: "/sponsor/why-sponsor" },
   { label: "Why Attend", path: "/conference/why-attend" },
   { label: "Startup Launchpad", path: "/startup-launchpad" },
-  { label: "VIP Experience", path: "/longevity-connect" },
+  { label: "VIP Experience", path: "/vip-experience" },
   { label: "Info Hub", path: "/blog" },
 ];
 </script>

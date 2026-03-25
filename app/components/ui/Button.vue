@@ -42,7 +42,7 @@ const classes = computed(() =>
     :disabled="props.isLoading"
     :class="classes"
     v-bind="$attrs"
-    :to="props.to"
+    :to="props.href"
   >
     <slot />
     <Icon

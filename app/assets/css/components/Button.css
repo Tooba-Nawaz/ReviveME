@@ -28,6 +28,15 @@
   border: 1px solid var(--secondary);
 }
 
+.button-golden {
+  background: linear-gradient(to right, #ba8a27 0%, #debd43 50%, #ba8a27 100%);
+}
+
+.button-border-golden {
+  border: 1px solid var(--golden);
+  color: var(--foreground-secondary);
+}
+
 .button-small {
   @apply px-4 py-2 text-sm min-h-[36px];
 }
