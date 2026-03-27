@@ -1,0 +1,68 @@
+.speaker-details__page-bg {
+  @apply w-full h-full bg-cover bg-center;
+}
+
+.speaker-details__page-container {
+  @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20;
+}
+
+.speaker-details__backButton-wrapper {
+  @apply flex items-center mb-8;
+}
+
+.speaker-details__back-button {
+  @apply flex items-center font-semibold border border-gray-300 px-2 py-1 rounded-lg;
+}
+
+.speaker-details__page-title {
+  @apply text-sm font-semibold uppercase self-center ms-3;
+}
+
+.speaker-details__grid {
+  @apply grid md:grid-cols-[auto_1fr] gap-8 lg:gap-20 items-center;
+}
+
+.speaker-details__speakerImage-wrapper {
+  @apply flex items-center;
+}
+
+.speaker-details__speakerImage-bg {
+  @apply w-[240px] h-[300px] flex items-center justify-center rounded-md overflow-hidden;
+  background: linear-gradient(14deg, #f52676 0%, #000 100%);
+}
+
+.speaker-details__speaker-image {
+  @apply w-full h-full object-cover;
+}
+
+.speaker-details__speaker-name {
+  @apply text-3xl font-semibold;
+}
+
+.speaker-details__speaker-designation {
+  @apply text-lg text-gray-600 leading-tight mt-2;
+}
+
+.speaker-details__speakerLogo-wrapper {
+  @apply flex my-4;
+}
+
+.speaker-details__speakerLogo-bg {
+  @apply w-[120px] h-[80px] border bg-gray-100 rounded-xl p-2;
+}
+
+.speaker-details__speaker-logo {
+  @apply w-full h-full object-contain;
+}
+
+.speaker-details__speakerBio-wrapper {
+  @apply mt-4 md:mt-8 max-w-3xl;
+}
+
+.speaker-details__about-title {
+  @apply text-lg font-bold mb-2;
+}
+
+.speaker-details__speaker-bio {
+  @apply text-gray-600;
+}

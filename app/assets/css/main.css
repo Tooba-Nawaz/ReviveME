@@ -21,6 +21,8 @@
 @import "./components/Why-Attend.css";
 @import "./components/Startup-Launchpad.css";
 @import "./components/Vip-Experience.css";
+@import "./components/shared/SpeakerCard.css";
+@import "./components/shared/SpeakerDetails.css";
 
 :root {
   --primary: rgb(245, 38, 118);
