@@ -1,0 +1,45 @@
+/* why attend section*/
+.why-attend-grid {
+  @apply grid md:grid-cols-2;
+}
+
+.why-attend-wrapper {
+  @apply p-10 lg:p-14;
+  background: linear-gradient(-70deg, #f52676, #180e23 50%);
+}
+
+.why-attend-title {
+  @apply text-4xl md:text-5xl lg:text-7xl font-light leading-[0.9] mb-4;
+  display: inline-block;
+  font-family: var(--font-ethnocentric), sans-serif;
+  background: linear-gradient(53deg, #ffffff, #f29c39);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.attendeeBenefits__titleTop {
+  @apply text-4xl font-bold uppercase text-center leading-[1.1];
+}
+
+.attendeeBenefits__titleBottom {
+  @apply mt-1 text-3xl font-light uppercase text-center leading-[1.2] tracking-[0.12em];
+  font-family: var(--font-ethnocentric);
+  color: #f52676;
+}
+
+.attendee-benefits-grid {
+  @apply grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8;
+}
+
+.attendee-benefits-wrapper {
+  @apply bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition;
+}
+
+.attendee-benefits-title {
+  @apply text-xl font-bold mb-2;
+}
+
+.attendee-benefits-desc {
+  @apply text-sm text-gray-500 leading-relaxed;
+}

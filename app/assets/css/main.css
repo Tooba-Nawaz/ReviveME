@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 @import url("https://use.typekit.net/pjt0nvw.css");
 
 @import "./components/Navbar.css";
@@ -16,7 +17,14 @@
 @import "./components/Footer.css";
 @import "./components/About.css";
 @import "./components/Exhibition.css";
-@import "./components/Sponsor.css";
+@import "./components/WhySponsor.css";
+@import "./components/Why-Attend.css";
+@import "./components/Startup-Launchpad.css";
+@import "./components/Vip-Experience.css";
+@import "./components/shared/SpeakerCard.css";
+@import "./components/shared/SpeakerDetails.css";
+@import "./components/Sponsors.css";
+@import "./components/shared/RegisterCTA.css";
 
 :root {
   --primary: rgb(245, 38, 118);
@@ -25,6 +33,7 @@
   --gray: rgb(148, 163, 184);
   --dark-blue: rgb(12, 14, 22);
   --orange: rgb(245, 158, 11);
+  --golden: rgb(242, 156, 57);
   --foreground-secondary: rgb(250, 250, 251);
   --primary-gradient: linear-gradient(
     75deg,
@@ -32,8 +41,8 @@
     var(--primary) 100%
   );
   --secondary-gradient: linear-gradient(to right, #ffffff 0%, #f29c39 100%);
-
   --font-ethnocentric: "Ethnocentric", sans-serif;
+  --font-square-peg: "Square Peg", cursive;
 }
 
 .text-primary-gradient {
@@ -52,6 +61,9 @@
 
 .font-ethnocentric {
   font-family: var(--font-ethnocentric);
+}
+.font-square-peg {
+  font-family: var(--font-square-peg);
 }
 
 body {

@@ -1,0 +1,87 @@
+/* Intro */
+
+.vipEx-title {
+  @apply font-ethnocentric font-[100] text-4xl md:text-7xl text-center;
+  background: linear-gradient(to right, #ba8a27 0%, #debd43 50%, #ba8a27 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.vipEx-desc {
+  @apply max-w-4xl mx-auto text-center text-gray-300 mt-4;
+}
+
+/* VIP Benefits */
+
+.vipBenefits-mainTitle {
+  @apply text-lg md:text-2xl lg:text-4xl font-ethnocentric font-extralight text-white text-center tracking-[0.2rem] md:tracking-[0.8rem] mt-20;
+}
+
+.vipBenefits-grid {
+  @apply grid md:grid-cols-2 gap-8 mt-10 md:max-w-5xl mx-auto;
+}
+
+.vipBenefits-image {
+  @apply w-full h-full object-cover absolute inset-0;
+}
+
+.vipBenefits-contentWrapper {
+  @apply relative h-full flex flex-col justify-end p-6 md:p-8;
+}
+
+.vipBenefits-iconWrapper {
+  @apply w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full;
+}
+
+.vipBenefits-icon {
+  @apply w-5 h-5 text-yellow-400;
+}
+
+.vipBenefits-title {
+  @apply text-xl font-bold my-2;
+  background: linear-gradient(to right, #ba8a27 0%, #debd43 50%, #ba8a27 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.vipBenefits-desc {
+  @apply text-gray-200 text-sm;
+}
+
+.otherBenefits-mainTitle {
+  @apply text-2xl md:text-3xl text-white text-center mt-10 md:mt-20;
+}
+
+.otherBenefits-grid {
+  @apply grid md:grid-cols-3 gap-4 mt-6 md:mt-10;
+}
+
+.otherBenefits-wrapper {
+  @apply flex flex-col text-center items-center justify-center p-4 lg:p-8;
+}
+
+.otherBenefits-icon {
+  @apply w-14 h-14 object-contain;
+}
+
+.otherBenefits-title {
+  @apply text-white text-xl font-bold my-3;
+}
+
+.otherBenefits-desc {
+  @apply text-gray-400 text-sm;
+}
+
+.passes-img {
+  @apply w-full h-full my-14;
+}
+
+.passes-desc {
+  @apply text-gray-300 text-center max-w-3xl mx-auto;
+}
+
+.button-wrapper {
+  @apply flex flex-col md:flex-row justify-center w-max gap-4 mt-10;
+}

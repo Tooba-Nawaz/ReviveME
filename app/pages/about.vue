@@ -53,7 +53,7 @@ const {
               variant="primary"
               size="regular"
               shape="pill"
-              href="/register"
+              to="/register"
             >
               register now
             </UiButton>
@@ -62,7 +62,7 @@ const {
               variant="border-gradient"
               size="regular"
               shape="pill"
-              href="/register"
+              to="/register"
             >
               ENQUIRE NOW
             </UiButton>
@@ -100,7 +100,7 @@ const {
               variant="primary"
               size="regular"
               shape="pill"
-              href="/register"
+              to="/register"
             >
               register now
             </UiButton>
@@ -109,7 +109,7 @@ const {
               variant="border-gradient"
               size="regular"
               shape="pill"
-              href="/register"
+              to="/register"
             >
               ENQUIRE NOW
             </UiButton>

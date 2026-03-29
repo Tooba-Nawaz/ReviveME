@@ -24,7 +24,7 @@ const {
             variant="primary"
             size="regular"
             shape="pill"
-            href="/register"
+            to="/register"
           >
             Exhibit
           </UiButton>
@@ -33,7 +33,7 @@ const {
             variant="transparent"
             size="regular"
             shape="pill"
-            href="/register"
+            to="/register"
           >
             ENQUIRE NOW
           </UiButton>
