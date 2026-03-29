@@ -1,5 +1,5 @@
 <script setup>
-import "@/assets/css/components/Sponsor.css";
+import "@/assets/css/components/WhySponsor.css";
 import AppContainer from "~/components/ui/AppContainer.vue";
 import UiButton from "~/components/ui/Button.vue";
 

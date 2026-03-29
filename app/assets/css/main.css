@@ -17,12 +17,14 @@
 @import "./components/Footer.css";
 @import "./components/About.css";
 @import "./components/Exhibition.css";
-@import "./components/Sponsor.css";
+@import "./components/WhySponsor.css";
 @import "./components/Why-Attend.css";
 @import "./components/Startup-Launchpad.css";
 @import "./components/Vip-Experience.css";
 @import "./components/shared/SpeakerCard.css";
 @import "./components/shared/SpeakerDetails.css";
+@import "./components/Sponsors.css";
+@import "./components/shared/RegisterCTA.css";
 
 :root {
   --primary: rgb(245, 38, 118);

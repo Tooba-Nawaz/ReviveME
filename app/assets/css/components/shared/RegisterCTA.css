@@ -1,0 +1,15 @@
+.cta {
+  @apply w-full rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat;
+}
+
+.cta__overlay {
+  @apply flex flex-col items-center justify-center text-center px-6 py-12 sm:px-10 sm:py-16 lg:py-20;
+}
+
+.cta__title {
+  @apply text-white text-2xl sm:text-3xl md:text-4xl;
+}
+
+.cta__desc {
+  @apply mt-4 max-w-lg text-white/90 text-sm sm:text-base;
+}

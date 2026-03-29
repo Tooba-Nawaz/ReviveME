@@ -37,6 +37,14 @@
   color: var(--foreground-secondary);
 }
 
+.button-white {
+  @apply bg-white;
+}
+
+.button-border-white {
+  @apply border border-white text-white;
+}
+
 .button-small {
   @apply px-4 py-2 text-sm min-h-[36px];
 }
