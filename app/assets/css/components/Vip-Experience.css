@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 /* Intro */
 
 .vipEx-title {
@@ -87,3 +89,4 @@
 .button-wrapper {
   @apply flex flex-col md:flex-row justify-center w-max gap-4 mt-10;
 }
+

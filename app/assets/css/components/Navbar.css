@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .navbar-container {
   @apply fixed top-0 w-full bg-[#26062C] z-50;
 }
@@ -17,3 +19,4 @@
 .nav-items-sm-wrapper {
   @apply flex flex-col text-white space-y-2;
 }
+

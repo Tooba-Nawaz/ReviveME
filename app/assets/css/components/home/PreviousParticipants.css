@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .participants-wrapper {
   @apply grid grid-cols-3 gap-0;
 }
@@ -22,3 +24,4 @@
 .participant-image {
   @apply max-h-full object-contain;
 }
+

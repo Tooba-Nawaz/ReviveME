@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .attendees-bg {
   @apply relative  bg-[#fdf7fd] overflow-hidden;
 }
@@ -36,3 +38,4 @@
 .attendees-item-wrapper {
   @apply w-fit rounded-full bg-white/80 p-3 md:p-4 flex items-center;
 }
+

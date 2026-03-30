@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .expected-bg {
   @apply relative  bg-[#FFF5EA] overflow-hidden;
 }
@@ -33,3 +35,4 @@
   @apply text-[var(--primary)]  text-2xl;
   font-family: var(--font-ethnocentric);
 }
+

@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .why-abu-dhabi {
   @apply relative h-full  bg-cover bg-center flex items-center justify-start;
 }
@@ -14,3 +16,4 @@
 .why-abu-dhabi-wrapper {
   @apply bg-[rgba(15,23,42,0.6)] border-2 border-white/5 rounded-xl p-6;
 }
+

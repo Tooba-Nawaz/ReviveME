@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .venue-wrapper {
   @apply absolute top-4 md:top-20 lg:left-1/2 lg:-translate-x-1/2 px-4;
 }
@@ -10,3 +12,4 @@
   @apply text-2xl md:text-4xl  font-extralight;
   font-family: var(--font-ethnocentric);
 }
+

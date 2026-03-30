@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 /* why attend section*/
 .why-attend-grid {
   @apply grid md:grid-cols-2;
@@ -43,3 +45,4 @@
 .attendee-benefits-desc {
   @apply text-sm text-gray-500 leading-relaxed;
 }
+

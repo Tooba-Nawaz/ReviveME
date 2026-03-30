@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .home-header-bg {
   @apply [background:var(--primary-gradient)] py-2;
 }
@@ -14,3 +16,4 @@
 .event-date {
   @apply text-3xl md:text-5xl md:me-6 md:self-center;
 }
+

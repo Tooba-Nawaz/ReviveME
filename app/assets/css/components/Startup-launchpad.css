@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .startup-bg {
   @apply bg-cover bg-center;
 }
@@ -112,3 +114,4 @@
 .button-wrapper {
   @apply flex flex-col md:flex-row justify-center max-w-xl mx-auto gap-4;
 }
+

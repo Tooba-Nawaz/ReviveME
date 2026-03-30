@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .button {
   @apply font-normal cursor-pointer ease-in-out uppercase
            select-none  h-min
@@ -64,3 +66,4 @@
 .button-pill {
   @apply rounded-full;
 }
+

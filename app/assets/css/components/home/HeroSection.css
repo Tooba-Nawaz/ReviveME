@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .hero-bg {
   @apply relative h-[80vh] bg-cover bg-center flex items-center justify-start;
 }
