@@ -15,7 +15,7 @@ const {
     <AppContainer>
       <div class="home-about-grid">
         <div>
-          <h1 class="home-about-title">
+          <h1 class="home-about-title text-primary-gradient">
             Advancing Human Healthspan <br />
             Through Science, Investment & Global Collaboration
           </h1>
@@ -40,6 +40,20 @@ const {
             breakthrough health outcomes. Build your network. Discover
             next-generation therapies. Forge partnerships that matter.
           </p>
+          <div class="homeAbout__button-wrapper">
+            <UiButton variant="primary" size="small" shape="pill" to="/about">
+              Learn More
+            </UiButton>
+
+            <UiButton
+              variant="primary"
+              size="small"
+              shape="pill"
+              to="/register"
+            >
+              Register now
+            </UiButton>
+          </div>
         </div>
         <div>
           <NuxtImg

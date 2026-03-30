@@ -7,5 +7,9 @@
 }
 
 .home-about-title {
-  @apply text-2xl font-bold mb-6 text-primary-gradient;
+  @apply text-2xl font-bold mb-6;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

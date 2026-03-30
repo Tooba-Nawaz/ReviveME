@@ -29,7 +29,8 @@
 }
 
 .revive-title {
-  @apply text-4xl lg:text-7xl font-ethnocentric font-extralight text-[var(--primary)];
+  @apply text-4xl lg:text-7xl  font-extralight text-[var(--primary)];
+  font-family: var(--font-ethnocentric);
 }
 
 .attendees-item-wrapper {

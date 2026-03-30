@@ -3,7 +3,8 @@
 }
 
 .about-title {
-  @apply text-3xl font-ethnocentric font-light;
+  @apply text-3xl  font-light;
+  font-family: "Ethnocentric", sans-serif;
 }
 
 .button-lg-grid {

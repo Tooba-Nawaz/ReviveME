@@ -13,11 +13,16 @@
 }
 
 .startup-title {
-  @apply font-square-peg text-5xl md:text-8xl leading-none;
+  @apply text-5xl md:text-8xl leading-none;
+  font-family: var(--font-square-peg);
 }
 
 .launchpad-title {
-  @apply font-ethnocentric font-light text-4xl md:text-7xl text-primary-gradient;
+  @apply font-light text-4xl md:text-7xl;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .startup-desc {

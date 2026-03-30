@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 @import url("https://use.typekit.net/pjt0nvw.css");
 
+@import "tailwindcss";
 @import "./components/Navbar.css";
 @import "./components/Button.css";
 @import "./components/home/HomeHeader.css";
@@ -45,7 +46,7 @@
   --font-square-peg: "Square Peg", cursive;
 }
 
-.text-primary-gradient {
+/* .text-primary-gradient {
   background: var(--primary-gradient);
   -webkit-background-clip: text;
   background-clip: text;
@@ -64,8 +65,10 @@
 }
 .font-square-peg {
   font-family: var(--font-square-peg);
-}
+} */
 
-body {
-  font-family: "Figtree", sans-serif;
+@layer base {
+  body {
+    font-family: "Figtree", sans-serif;
+  }
 }

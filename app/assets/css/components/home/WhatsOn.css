@@ -21,7 +21,8 @@
 }
 
 .whats-on-title {
-  @apply text-3xl text-center font-ethnocentric font-extralight text-white;
+  @apply text-3xl text-center  font-extralight text-white;
+  font-family: var(--font-ethnocentric);
 }
 
 .whats-on-grid {
@@ -37,7 +38,12 @@
 }
 
 .whats-on-item-title {
-  @apply text-xl text-secondary-gradient font-ethnocentric font-light;
+  @apply text-xl  font-light;
+  font-family: var(--font-ethnocentric);
+  background: var(--secondary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .whats-on-description {

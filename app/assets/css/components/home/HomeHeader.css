@@ -7,7 +7,8 @@
 }
 
 .home-header-grid {
-  @apply flex flex-col md:flex-row font-ethnocentric font-light text-white gap-4 md:gap-0 justify-between items-start md:items-center py-2;
+  @apply flex flex-col md:flex-row  font-light text-white gap-4 md:gap-0 justify-between items-start md:items-center py-2;
+  font-family: var(--font-ethnocentric);
 }
 
 .event-date {

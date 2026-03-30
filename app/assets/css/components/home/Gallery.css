@@ -3,7 +3,8 @@
 }
 
 .gallery-title {
-  @apply md:text-2xl font-ethnocentric font-light text-center tracking-[2.5rem];
+  @apply md:text-2xl  font-light text-center tracking-[2.5rem];
+  font-family: var(--font-ethnocentric);
 }
 
 .gallery-grid {

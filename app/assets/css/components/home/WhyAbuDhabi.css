@@ -7,7 +7,8 @@
 }
 
 .why-abu-dhabi-title {
-  @apply text-6xl font-ethnocentric font-light;
+  @apply text-6xl  font-light;
+  font-family: var(--font-ethnocentric);
 }
 
 .why-abu-dhabi-wrapper {

@@ -7,5 +7,6 @@
 }
 
 .event-venue {
-  @apply text-2xl md:text-4xl font-ethnocentric font-extralight;
+  @apply text-2xl md:text-4xl  font-extralight;
+  font-family: var(--font-ethnocentric);
 }

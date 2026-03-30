@@ -1,11 +1,12 @@
 /* Intro */
 
 .vipEx-title {
-  @apply font-ethnocentric font-[100] text-4xl md:text-7xl text-center;
+  @apply font-[100] text-4xl md:text-7xl text-center;
   background: linear-gradient(to right, #ba8a27 0%, #debd43 50%, #ba8a27 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-family: var(--font-ethnocentric);
 }
 
 .vipEx-desc {
@@ -15,7 +16,8 @@
 /* VIP Benefits */
 
 .vipBenefits-mainTitle {
-  @apply text-lg md:text-2xl lg:text-4xl font-ethnocentric font-extralight text-white text-center tracking-[0.2rem] md:tracking-[0.8rem] mt-20;
+  @apply text-lg md:text-2xl lg:text-4xl  font-extralight text-white text-center tracking-[0.2rem] md:tracking-[0.8rem] mt-20;
+  font-family: var(--font-ethnocentric);
 }
 
 .vipBenefits-grid {
