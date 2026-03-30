@@ -57,7 +57,7 @@ const startupAudience = [
       <div id="launchpad-intro" class="launchpad-grid">
         <div class="launchpadIntro-wrapper">
           <div class="startup-title">Startup</div>
-          <div class="launchpad-title">Launchpad</div>
+          <div class="launchpad-title font-ethnocentric">Launchpad</div>
 
           <p class="startup-desc">
             The Startup Launchpad at Revive ME is a dedicated platform for

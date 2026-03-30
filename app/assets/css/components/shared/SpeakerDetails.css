@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .speaker-details__page-bg {
   @apply w-full h-full bg-cover bg-center;
 }
@@ -66,3 +68,4 @@
 .speaker-details__speaker-bio {
   @apply text-gray-600;
 }
+

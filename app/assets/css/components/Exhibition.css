@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .exHero {
   @apply relative flex w-full items-center justify-center overflow-hidden text-center;
   height: 385px;
@@ -258,3 +260,4 @@
     white-space: normal;
   }
 }
+

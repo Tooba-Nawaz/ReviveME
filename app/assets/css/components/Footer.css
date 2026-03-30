@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .footer {
   @apply relative  bg-[var(--dark-blue)] overflow-hidden;
 }
@@ -55,3 +57,4 @@
   background-clip: text;
   color: transparent;
 }
+

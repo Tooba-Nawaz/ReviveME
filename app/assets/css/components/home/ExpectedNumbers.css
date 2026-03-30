@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .expected-bg {
   @apply relative  bg-[#FFF5EA] overflow-hidden;
 }
@@ -21,7 +23,8 @@
 }
 
 .expected-title {
-  @apply text-3xl font-ethnocentric font-light;
+  @apply text-3xl  font-light;
+  font-family: var(--font-ethnocentric);
 }
 
 .expected-wrapper {
@@ -29,5 +32,7 @@
 }
 
 .expected-number {
-  @apply text-[var(--primary)] font-ethnocentric text-2xl;
+  @apply text-[var(--primary)]  text-2xl;
+  font-family: var(--font-ethnocentric);
 }
+

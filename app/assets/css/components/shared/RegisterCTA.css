@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .cta {
   @apply w-full rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat;
 }
@@ -13,3 +15,4 @@
 .cta__desc {
   @apply mt-4 max-w-lg text-white/90 text-sm sm:text-base;
 }
+

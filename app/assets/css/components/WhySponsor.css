@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .sponsorPage {
   @apply bg-white;
 }
@@ -187,3 +189,4 @@
     @apply min-w-full;
   }
 }
+

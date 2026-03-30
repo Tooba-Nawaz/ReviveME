@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .whats-on {
   @apply relative  bg-[var(--dark-blue)] overflow-hidden;
 }
@@ -21,7 +23,8 @@
 }
 
 .whats-on-title {
-  @apply text-3xl text-center font-ethnocentric font-extralight text-white;
+  @apply text-3xl text-center  font-extralight text-white;
+  font-family: var(--font-ethnocentric);
 }
 
 .whats-on-grid {
@@ -37,9 +40,15 @@
 }
 
 .whats-on-item-title {
-  @apply text-xl text-secondary-gradient font-ethnocentric font-light;
+  @apply text-xl  font-light;
+  font-family: var(--font-ethnocentric);
+  background: var(--secondary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .whats-on-description {
   @apply absolute bottom-0 left-0 w-full translate-y-full group-hover:translate-y-0 transition-all duration-500 bg-black/35 backdrop-blur-md p-4 text-white text-sm;
 }
+

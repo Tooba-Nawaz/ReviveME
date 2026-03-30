@@ -1,24 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
-  // ssr: false,
+  ssr: false,
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   nitro: {
-    // preset: "static",
-    output: {
-      dir: "dist",
-    },
+    preset: "static",
   },
   // image: {
   //   provider: "static",
   // },
-  css: ["~/assets/css/main.css"],
+  css: ["./app/assets/css/main.css"],
   vite: {
-    css: {
-      devSourcemap: true,
-    },
+    plugins: [tailwindcss()],
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/icon"],
+  modules: ["@nuxt/image", "@nuxt/icon"],
   imports: {
     dirs: [
       "core/constants",
@@ -32,11 +28,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       blobBaseUrl: "https://resolutemarkets.blob.core.windows.net/revive-me",
-    },
-  },
-  postcss: {
-    plugins: {
-      "@tailwindcss/postcss": {},
+      API_BASE_URL:
+        "https://revorocrmsgr-ceeuddeqfdevbfas.centralindia-01.azurewebsites.net",
     },
   },
 });

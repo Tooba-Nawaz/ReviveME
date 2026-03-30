@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 /* ===== Listing ===== */
 
 .sponsorListing__title {
@@ -53,3 +55,4 @@
 .sponsorCard__linkArrow {
   @apply text-[14px] leading-none;
 }
+

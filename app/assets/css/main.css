@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 @import url("https://use.typekit.net/pjt0nvw.css");
 
+@import "tailwindcss";
+
 @import "./components/Navbar.css";
 @import "./components/Button.css";
 @import "./components/home/HomeHeader.css";
@@ -45,27 +47,50 @@
   --font-square-peg: "Square Peg", cursive;
 }
 
-.text-primary-gradient {
-  background: var(--primary-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+@theme inline {
+  --font-ethnocentric: var(--font-ethnocentric);
+  --font-square-peg: var(--font-square-peg);
+
+  --breakpoint-3xl: 1650px;
+
+  --background-image-gradient-primary: var(--primary-gradient);
+  --background-image-gradient-secondary: var(--secondary-gradient);
+
+  --color-background-primary: rgb(var(--background-primary));
+  --color-foreground-primary: rgb(var(--foreground-primary));
+
+  --color-orange: var(--orange);
+  --color-golden: var(--golden);
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
 }
 
-.text-secondary-gradient {
-  background: var(--secondary-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+@layer base {
+  body {
+    font-family: "Figtree", sans-serif;
+  }
 }
 
-.font-ethnocentric {
-  font-family: var(--font-ethnocentric);
-}
-.font-square-peg {
-  font-family: var(--font-square-peg);
-}
+@layer components {
+  .text-primary-gradient {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 
-body {
-  font-family: "Figtree", sans-serif;
+  .text-secondary-gradient {
+    background: var(--secondary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .font-ethnocentric {
+    font-family: var(--font-ethnocentric);
+  }
+  .font-square-peg {
+    font-family: var(--font-square-peg);
+  }
 }

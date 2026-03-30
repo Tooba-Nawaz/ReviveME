@@ -1,3 +1,5 @@
+﻿@reference "tailwindcss";
+
 .attendees-bg {
   @apply relative  bg-[#fdf7fd] overflow-hidden;
 }
@@ -29,9 +31,11 @@
 }
 
 .revive-title {
-  @apply text-4xl lg:text-7xl font-ethnocentric font-extralight text-[var(--primary)];
+  @apply text-4xl lg:text-7xl  font-extralight text-[var(--primary)];
+  font-family: var(--font-ethnocentric);
 }
 
 .attendees-item-wrapper {
   @apply w-fit rounded-full bg-white/80 p-3 md:p-4 flex items-center;
 }
+
